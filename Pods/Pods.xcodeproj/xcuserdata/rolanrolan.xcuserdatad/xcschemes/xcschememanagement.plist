@@ -18,6 +18,7 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,6 +26,8 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+=======
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>

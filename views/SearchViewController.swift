@@ -5,11 +5,34 @@
 //  Created by Kanat on 30.09.17.
 //  Copyright © 2017 Kanat. All rights reserved.
 
+<<<<<<< HEAD
 
 import UIKit
 import Alamofire
 import SnapKit
 import SwiftyJSON
+=======
+import UIKit
+import Alamofire
+
+class SearchViewController: UIViewController {
+    
+    let searchLabel: UITextField = {
+        let search = UITextField()
+        search.backgroundColor = .white
+        search.layer.borderWidth = 0.1
+        search.layer.shadowRadius = 1
+        search.layer.shadowColor = UIColor.black.cgColor
+        search.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
+        search.layer.shadowOpacity = 1.0
+        search.layer.borderColor = UIColor(red: 151/255, green: 151/255, blue: 151/255, alpha: 1).cgColor
+        search.autocapitalizationType = UITextAutocapitalizationType.none
+        search.layer.cornerRadius = 25
+        search.layer.masksToBounds = true
+        search.translatesAutoresizingMaskIntoConstraints = false
+        return search
+    }()
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 
 class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -54,6 +77,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
         searchTableView.dataSource = self
         searchTableView.delegate = self
         searchTableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
@@ -148,6 +172,27 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.textLabel?.textColor = .black
         return cell
     }
+=======
+        view.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1)
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        let logo = UIImage(named: "logo.png")
+        let imageView = UIImageView(image: logo)
+        navigationItem.titleView = imageView
+        
+        view.addSubview(searchLabel)
+        
+        setupSearchLabel()
+    }
+    
+    func setupSearchLabel(){
+        searchLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        searchLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -25).isActive = true
+        searchLabel.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -50).isActive = true
+        searchLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+    }
+    
+
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 
 
 }

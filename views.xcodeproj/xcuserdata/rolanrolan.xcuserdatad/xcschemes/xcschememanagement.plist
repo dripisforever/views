@@ -7,7 +7,11 @@
 		<key>views.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>3</integer>
+=======
+			<integer>2</integer>
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 		</dict>
 	</dict>
 </dict>

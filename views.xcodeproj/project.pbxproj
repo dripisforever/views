@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		434066EB1FEFC18F00B22B6D /* Sites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434066EA1FEFC18F00B22B6D /* Sites.swift */; };
 		4354C6061FA0D7D10094D15A /* TableUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354C6051FA0D7D10094D15A /* TableUsers.swift */; };
+=======
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 		74022AEE1F7E939300685988 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74022AED1F7E939300685988 /* MainController.swift */; };
 		74022AF01F7E945E00685988 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74022AEF1F7E945E00685988 /* LoginController.swift */; };
 		74022AF21F7EC56400685988 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74022AF11F7EC56300685988 /* TabBarController.swift */; };
@@ -26,8 +29,11 @@
 /* Begin PBXFileReference section */
 		0026950B106C399E9D7945F0 /* Pods_views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_views.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C675F41EEFE9DAA2E324B55 /* Pods-views.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-views.debug.xcconfig"; path = "Pods/Target Support Files/Pods-views/Pods-views.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		434066EA1FEFC18F00B22B6D /* Sites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sites.swift; sourceTree = "<group>"; };
 		4354C6051FA0D7D10094D15A /* TableUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableUsers.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 		74022AED1F7E939300685988 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		74022AEF1F7E945E00685988 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		74022AF11F7EC56300685988 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -97,8 +103,11 @@
 				74022AF71F7ED09400685988 /* Assets.xcassets */,
 				74022AF91F7ED47200685988 /* AddPhotoController.swift */,
 				74022AFB1F7ED61B00685988 /* FichaPageViewController.swift */,
+<<<<<<< HEAD
 				4354C6051FA0D7D10094D15A /* TableUsers.swift */,
 				434066EA1FEFC18F00B22B6D /* Sites.swift */,
+=======
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -224,14 +233,20 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-views/Pods-views-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+<<<<<<< HEAD
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+=======
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+<<<<<<< HEAD
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+=======
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -246,8 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				74022AF41F7ECB0900685988 /* SearchViewController.swift in Sources */,
+<<<<<<< HEAD
 				4354C6061FA0D7D10094D15A /* TableUsers.swift in Sources */,
 				434066EB1FEFC18F00B22B6D /* Sites.swift in Sources */,
+=======
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 				74022AFA1F7ED47200685988 /* AddPhotoController.swift in Sources */,
 				74C06E901F7C33D30062E4C6 /* ViewController.swift in Sources */,
 				74022AF01F7E945E00685988 /* LoginController.swift in Sources */,

@@ -18,8 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
+<<<<<<< HEAD
         window?.rootViewController = LoginController()
         UIApplication.shared.statusBarStyle = .lightContent
+=======
+        window?.rootViewController = TabBarController()
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
         
         // Override point for customization after application launch.
         return true

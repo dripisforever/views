@@ -20,6 +20,7 @@ class TabBarController: UITabBarController {
         addPhotoController.tabBarItem.image = UIImage(named: "Add Photo")
         
         
+<<<<<<< HEAD
         let fichaPageController = UINavigationController(rootViewController: FichaPageViewController())
         fichaPageController.tabBarItem.image = UIImage(named: "Thumb")
 
@@ -33,4 +34,14 @@ class TabBarController: UITabBarController {
 //        return logo
 //    }()
 //
+=======
+        let fichaVC = FichaPageViewController()
+        fichaVC.navigationItem.titleView = UIImageView(image: UIImage(named: "logo"))
+        let fichaPageController = UINavigationController(rootViewController: fichaVC)
+        fichaPageController.tabBarItem.image = UIImage(named: "Thumb")
+
+        viewControllers = [navigationController, addPhotoController, fichaPageController]
+    }
+
+>>>>>>> 0f4b2d8f339eb2cc9c5e49854f891ab55647018c
 }
