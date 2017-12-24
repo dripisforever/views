@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class TabBarController: UITabBarController {
 
@@ -19,15 +20,17 @@ class TabBarController: UITabBarController {
         addPhotoController.tabBarItem.image = UIImage(named: "Add Photo")
         
         
-        let fichaVC = FichaPageViewController()
-        fichaVC.navigationItem.titleView = UIImageView(image: UIImage(named: "logo"))
-        let fichaPageController = UINavigationController(rootViewController: fichaVC)
+        let fichaPageController = UINavigationController(rootViewController: FichaPageViewController())
         fichaPageController.tabBarItem.image = UIImage(named: "Thumb")
 
         viewControllers = [navigationController, addPhotoController, fichaPageController]
+        
     }
-
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
+    
+//    let navImage: UIImageView = {
+//        let logo = UIImageView()
+//        logo.image = UIImage(named: "logo")
+//        return logo
+//    }()
+//
 }

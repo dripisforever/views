@@ -22,10 +22,13 @@ class ViewController: UIViewController {
     
     let emailLabel: UITextField = {
         let email = UITextField()
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 50))
         email.backgroundColor = UIColor(red: 27/255, green: 27/255, blue: 27/255, alpha: 1)
         email.autocapitalizationType = UITextAutocapitalizationType.none
         email.textColor = .white
         email.layer.cornerRadius = 5
+        email.leftView = paddingView
+        email.leftViewMode = .always
         email.layer.masksToBounds = true
         email.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSAttributedStringKey.foregroundColor: UIColor.white])
         email.translatesAutoresizingMaskIntoConstraints = false
@@ -34,9 +37,12 @@ class ViewController: UIViewController {
     
     let usernameLabel: UITextField = {
         let username = UITextField()
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 50))
         username.backgroundColor = UIColor(red: 27/255, green: 27/255, blue: 27/255, alpha: 1)
         username.autocapitalizationType = UITextAutocapitalizationType.none
         username.textColor = .white
+        username.leftView = paddingView
+        username.leftViewMode = .always
         username.layer.cornerRadius = 5
         username.layer.masksToBounds = true
         username.attributedPlaceholder = NSAttributedString(string: "Username", attributes: [NSAttributedStringKey.foregroundColor: UIColor.white])
@@ -46,9 +52,12 @@ class ViewController: UIViewController {
     
     let passwordLabel: UITextField = {
         let password = UITextField()
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 50))
         password.backgroundColor = UIColor(red: 27/255, green: 27/255, blue: 27/255, alpha: 1)
         password.autocapitalizationType = UITextAutocapitalizationType.none
         password.textColor = .white
+        password.leftView = paddingView
+        password.leftViewMode = .always
         password.isSecureTextEntry = true
         password.layer.cornerRadius = 5
         password.layer.masksToBounds = true
@@ -146,8 +155,6 @@ class ViewController: UIViewController {
         let loginController = LoginController()
         present(loginController, animated: true, completion: nil)
     }
-
- 
 }
 
 
